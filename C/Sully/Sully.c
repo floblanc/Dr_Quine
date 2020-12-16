@@ -5,8 +5,8 @@
 
 int main()
 {
-	int i = 10;
-	if (i == 0)
+	int i = 5;
+	if (i <= 0)
 		return (0);
 	char tmp[2048];
 	snprintf(tmp, sizeof(tmp), "Sully_%d.c", i);
